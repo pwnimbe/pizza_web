@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzería Italiana</title>
+    <link rel="stylesheet" href="d:\Examen\css\pizza.css"> <!-- Enlace al archivo CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <header class="text-center p-4">
+        <h1>Nido del Craving</h1>
+        <p>¡Las mejores pizzas con el auténtico sabor italiano!</p>
+    </header>
+    <div class="logotipo">
+        <img src="img/DALL·E 2024-10-10 11.59.44 - A minimalist logo design for a fast food restaurant called 'El Nido del Craving'. The design should focus on clean, simple lines and a modern aestheti.webp" alt="Logotipo">
+    </div>
+    <div class="contenido"></div>
+
+    <main class="container my-4">
+        <!-- Imagen central -->
+        <section class="text-center mb-4">
+            <img src="img/pizza.webp" alt="Pizza Italiana" width="30%" class="img-fluid">
+        </section>
+
+        <!-- Botones de navegación -->
+        <div class="d-flex justify-content-center gap-3 mb-4">
+            <a href="#promociones" class="btn btn-danger">Promociones</a>
+            <a href="#instalaciones" class="btn btn-success">Instalaciones</a>
+            <a href="#ubicacion" class="btn btn-warning">Ubicación</a>
+        </div>
+
+        <!-- Promociones -->
+        <section id="promociones" style="background-color: rgb(197, 197, 46);" class="mb-5">
+            <h2 class="text-center">Promociones</h2>
+            <div class="accordion" style="background-color:  rgb(197, 197, 46); "promocionesAccordion>
+                <div class="accordion-item">
+                    <h2 class="accordion-header"  id="promoOne">
+                        <button class="accordion-button" style="background-color: rgba(211, 210, 174, 0.596);" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Promoción 1: Combo estudiante
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="promoOne" data-bs-parent="#promocionesAccordion">
+                        <div class="accordion-body";>
+                            Combo Estudiante: Hamburguesa + Papas + Refresco por solo $79 MXN.
+                            <img src="img/burger.webp" width="20%" alt="Hamburguesa, papas y refresco">
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="promoTwo">
+                        <button class="accordion-button collapsed" style="background-color:  rgba(211, 210, 174, 0.596);" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Promoción 2: 2x1 en pizzas 
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="promoTwo" data-bs-parent="#promocionesAccordion">
+                        <div class="accordion-body">
+                            Todos los martes y jueves disfruta de nuestras pizzas al 2x1.
+                            <img src="img/pizza.webp" width="20%" alt="Dos pizzas">
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="promoThree">
+                        <button class="accordion-button collapsed" style="background-color: rgba(211, 210, 174, 0.596);" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Promoción 3: Yogurt Especial
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="promoThree" data-bs-parent="#promocionesAccordion">
+                        <div class="accordion-body">
+                            Lleva un yogurt con toppings gratis al comprar cualquier combo
+                            <img src="img/yogurt.webp" width="30%" alt="yogurt con amigos">
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </section>
+
+        <!-- Instalaciones -->
+        <section id="instalaciones" class="mb-5">
+           <h2 class="text-center"> Instalaciones</h2>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <img src="img/instalaciones1.jpg" alt="Instalación 1" width="80%" class="img-fluid mb-2">
+                    <div style="background-color: rgb(72, 131, 60);"> <strong><p>Comedor principal</p></strong></div>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/instalaciones4.jpg" alt="Instalación 2" class="img-fluid mb-2">
+                   <div style="background-color: rgb(72, 131, 60);"> <Strong><p>Horno a la vista</p></Strong> </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/instalaciones2.jpg" alt="Instalación 3" class="img-fluid mb-2">
+                    <div style="background-color: rgb(72, 131, 60);"> <strong><p>Área principal</p></strong></div>
+                </div>
+            </div>
+            <div style="background-color: rgb(189, 95, 95);">
+            <p class="text-center mt-4">Nos encontramos en:</p>
+            <p class="text-center"><strong>Arco Sur Paseo 112 lote 2, Campo Nuevo, 91097 Xalapa-Enríquez, Ver., México
+                Ven a conocernos, estamos ubicados a solo unos minutos de la universidad.</strong></p>
+            </div>
+        </section>
+
+        <!-- Ubicación -->
+        <section id="ubicacion" class="mb-5">
+            <h2 class="text-center">Ubicación</h2>
+            <p class="text-center">Encuéntranos fácilmente en el mapa:</p>
+            <div class="d-flex justify-content-center">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760.7907783143414!2d-96.8909280693709!3d19.507635212859853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85db333063e0472b%3A0x90dc219e915b0cb7!2zRGVzYWbDrW8gTWF0ZW3DoXRpY28!5e0!3m2!1ses-419!2smx!4v1737363149467!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="; width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+
+    <footer class="text-center p-4">
+        <p>&copy; 2025 Pizzería Italiana. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

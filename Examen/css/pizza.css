@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #df2b14; /* Color mostaza */
+    color: white;
+    padding: 20px;
+    border-bottom: 5px solid #006400; /* Verde oscuro */
+}
+
+h1 {
+    font-size: 3rem;
+    color: #ff0000; /* Rojo */
+    text-shadow: 2px 2px #006400; /* Sombra verde oscuro */
+}
+
+footer {
+    background-color: #006400; /* Verde oscuro */
+    color: white;
+    padding: 15px 0;
+}
+
+a.btn {
+    color: rgb(17, 17, 17);
+    text-decoration: none;
+}
+body {
+    background: url('../img/fondo2madera.jfif') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para la posición del logotipo */
+.logotipo {
+    position: fixed;
+    top: 10px;  /* Espacio desde el borde superior */
+    left: 10px; /* Espacio desde el borde izquierdo */
+    z-index: 1000; /* Asegura que el logotipo esté por encima de otros elementos */
+}
+
+/* Opcional: Ajustar el tamaño del logotipo */
+.logotipo img {
+    width: 130px;  /* Ajusta el tamaño según tu necesidad */
+    height: auto;
+}
+
+/* Estilos generales para la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.contenido {
+    padding-top: 100px;  /* Para evitar que el contenido quede tapado por el logotipo */
+}
